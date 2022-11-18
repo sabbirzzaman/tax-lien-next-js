@@ -23,6 +23,12 @@ export default function Filter() {
 
                 <div className={styles.sales}>
                     <p>Sale Amount</p>
+
+                    <div className={styles.saleAmount}>
+                        <input type="text" value={'25,000'} />
+                        <span>To</span>
+                        <input type="text" value={'75,000'} />
+                    </div>
                 </div>
 
                 <div className={styles.property}>
@@ -127,7 +133,11 @@ export default function Filter() {
                 <div className={styles.property}>
                     <p>assessed home value</p>
 
-                    <div className={styles.checklist}></div>
+                    <div className={styles.value}>
+                        <input type="text" value={'25,000'} />
+                        <span>To</span>
+                        <input type="text" value={'75,000'} />
+                    </div>
                 </div>
 
                 <div className={styles.property}>
