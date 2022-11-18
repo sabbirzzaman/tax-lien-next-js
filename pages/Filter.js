@@ -42,7 +42,7 @@ export default function Filter() {
                                 name="residential"
                                 value="Residential"
                             />
-                            <label for="residential">Residential</label>
+                            <label htmlFor="residential">Residential</label>
                         </div>
 
                         <div className={styles.subChecklist}>
@@ -53,7 +53,7 @@ export default function Filter() {
                                     name="singleFamily"
                                     value="Single Family"
                                 />
-                                <label for="singleFamily">Single Family</label>
+                                <label htmlFor="singleFamily">Single Family</label>
                             </div>
                             <div className={styles.listItem}>
                                 <input
@@ -62,7 +62,7 @@ export default function Filter() {
                                     name="multiFamily"
                                     value="Multi Family"
                                 />
-                                <label for="multiFamily">Multi Family</label>
+                                <label htmlFor="multiFamily">Multi Family</label>
                             </div>
                         </div>
                         <div className={styles.listItem}>
@@ -72,7 +72,7 @@ export default function Filter() {
                                 name="Commercial"
                                 value="Commercial"
                             />
-                            <label for="Commercial">Commercial</label>
+                            <label htmlFor="Commercial">Commercial</label>
                         </div>
                         <div className={styles.listItem}>
                             <input
@@ -81,7 +81,7 @@ export default function Filter() {
                                 name="Other"
                                 value="Other"
                             />
-                            <label for="Other">Other</label>
+                            <label htmlFor="Other">Other</label>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ export default function Filter() {
                                 name="Individual"
                                 value="Individual"
                             />
-                            <label for="Individual">Individual (s)</label>
+                            <label htmlFor="Individual">Individual (s)</label>
                         </div>
 
                         <div className={styles.listItem}>
@@ -107,7 +107,7 @@ export default function Filter() {
                                 name="LLC"
                                 value="LLC/Inc/Corp"
                             />
-                            <label for="LLC">LLC/Inc/Corp</label>
+                            <label htmlFor="LLC">LLC/Inc/Corp</label>
                         </div>
                         <div className={styles.listItem}>
                             <input
@@ -116,7 +116,7 @@ export default function Filter() {
                                 name="Bank ro Trust"
                                 value="Other"
                             />
-                            <label for="backRoTrust">Bank ro Trust</label>
+                            <label htmlFor="backRoTrust">Bank ro Trust</label>
                         </div>
                         <div className={styles.listItem}>
                             <input
@@ -125,7 +125,7 @@ export default function Filter() {
                                 name="Estate"
                                 value="Estate"
                             />
-                            <label for="Estate">Estate</label>
+                            <label htmlFor="Estate">Estate</label>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@ export default function Filter() {
                                 name="3"
                                 value="3 years or fewer"
                             />
-                            <label for="3">3 years or fewer</label>
+                            <label htmlFor="3">3 years or fewer</label>
                         </div>
 
                         <div className={styles.listItem}>
@@ -161,7 +161,7 @@ export default function Filter() {
                                 name="3-10"
                                 value="3 - 10 years"
                             />
-                            <label for="3-10">3 - 10 years</label>
+                            <label htmlFor="3-10">3 - 10 years</label>
                         </div>
                         <div className={styles.listItem}>
                             <input
@@ -170,7 +170,7 @@ export default function Filter() {
                                 name="10-20"
                                 value="10 - 20 years"
                             />
-                            <label for="10-20">10 - 20 years</label>
+                            <label htmlFor="10-20">10 - 20 years</label>
                         </div>
                         <div className={styles.listItem}>
                             <input
@@ -179,7 +179,7 @@ export default function Filter() {
                                 name="20"
                                 value="20+ years"
                             />
-                            <label for="20">20+ years</label>
+                            <label htmlFor="20">20+ years</label>
                         </div>
                     </div>
                 </div>
@@ -196,7 +196,7 @@ export default function Filter() {
                                 name="Yes"
                                 value="Yes"
                             />
-                            <label for="Yes">Yes</label>
+                            <label htmlFor="Yes">Yes</label>
                         </div>
 
                         <div className={styles.listItem}>
@@ -206,7 +206,7 @@ export default function Filter() {
                                 name="No"
                                 value="No"
                             />
-                            <label for="No">No</label>
+                            <label htmlFor="No">No</label>
                         </div>
                         <div className={styles.listItem}>
                             <input
@@ -215,7 +215,7 @@ export default function Filter() {
                                 name="Ignore"
                                 value="Ignore"
                             />
-                            <label for="Ignore">Ignore</label>
+                            <label htmlFor="Ignore">Ignore</label>
                         </div>
                     </div>
                 </div>

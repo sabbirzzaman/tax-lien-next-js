@@ -1,0 +1,43 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.process {
+    height: 2px;
+    background: #e0e6ec;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.process div {
+    width: 32px;
+    height: 32px;
+    background-color: #e0e6ec;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.process div:hover {
+    background-color: #B73E3E;
+}
+
+.process div span {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.process div p {
+    position: absolute;
+    bottom: -50px;
+}
