@@ -1,0 +1,25 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.upperHeader {
+    background-color: #039AFF;
+}
+
+.upperHeader .container {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: white;
+    align-items: center;
+}
+
+.upperHeader .container p, .upperHeader .container div a {
+    color: white;
+}
+
+.upperHeader .container div a {
+    margin-left: 24px;
+}
