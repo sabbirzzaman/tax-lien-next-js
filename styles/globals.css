@@ -10,11 +10,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-}
-
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
+    background-color: #fafafa;
 }
 
 h1,
@@ -38,15 +34,19 @@ a {
 
 h1 {
     font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 h2 {
     font-size: 32px;
+    font-weight: 500;
 }
 
 h3 {
     font-size: 20px;
     line-height: 32px;
+    font-weight: 500;
 }
 
 button {
