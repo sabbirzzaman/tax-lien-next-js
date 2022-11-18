@@ -16,7 +16,7 @@ export default function TaxLiens() {
             propertyType: 'Resedential',
             ownerType: 'Estate',
             boughtIn: 'Dec 2020',
-            assetValue: 'Asset Value',
+            assetValue: '34,400',
             image: map,
         },
         {
@@ -29,7 +29,7 @@ export default function TaxLiens() {
             propertyType: 'Resedential',
             ownerType: 'Estate',
             boughtIn: 'Dec 2020',
-            assetValue: 'Asset Value',
+            assetValue: '34,400',
             image: map,
         },
         {
@@ -42,7 +42,7 @@ export default function TaxLiens() {
             propertyType: 'Resedential',
             ownerType: 'Estate',
             boughtIn: 'Dec 2020',
-            assetValue: 'Asset Value',
+            assetValue: '34,400',
             image: map,
         },
         {
@@ -55,7 +55,7 @@ export default function TaxLiens() {
             propertyType: 'Resedential',
             ownerType: 'Estate',
             boughtIn: 'Dec 2020',
-            assetValue: 'Asset Value',
+            assetValue: '34,400',
             image: map,
         },
         {
@@ -68,7 +68,7 @@ export default function TaxLiens() {
             propertyType: 'Resedential',
             ownerType: 'Estate',
             boughtIn: 'Dec 2020',
-            assetValue: 'Asset Value',
+            assetValue: '34,400',
             image: map,
         },
         {
@@ -81,7 +81,7 @@ export default function TaxLiens() {
             propertyType: 'Resedential',
             ownerType: 'Estate',
             boughtIn: 'Dec 2020',
-            assetValue: 'Asset Value',
+            assetValue: '34,400',
             image: map,
         }
     ];
