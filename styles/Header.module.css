@@ -23,3 +23,50 @@
 .upperHeader .container div a {
     margin-left: 24px;
 }
+
+.header {
+    background-color: #083AA9;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 121px;
+}
+
+.header .container h3, .nav a, .user p {
+    color: white;
+}
+
+.header .container h3 {
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.user img {
+    cursor: pointer;
+}
+
+.user p {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.nav {
+    display: flex;
+    gap: 32px;
+}
