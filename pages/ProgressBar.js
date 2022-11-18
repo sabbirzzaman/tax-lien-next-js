@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from '../styles/ProcessBar.module.css';
+import styles from '../styles/ProgressBar.module.css'
 
-export default function ProcessBar() {
+export default function ProgressBar() {
     return (
         <div className={styles.container}>
             <div className={styles.process}>
